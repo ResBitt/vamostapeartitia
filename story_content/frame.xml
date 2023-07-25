@@ -1,0 +1,2193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="true" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
+  <layouts>
+    <layout name="npnxnanbsnfns00001000101" font="Lato" controllayout="npnxnanbsnfns00001000101" colorscheme="pxabnsnfns00001000101" string_table="pxabnsnfns00001000101" />
+    <layout name="pxabnsnfns00001000101" font="Lato" controllayout="pxabnsnfns00001000101" colorscheme="pxabnsnfns00001000101" string_table="pxabnsnfns00001000101" />
+    <layout name="npxnabnsnfns00001000101" font="Lato" controllayout="npxnabnsnfns00001000101" colorscheme="pxabnsnfns00001000101" string_table="pxabnsnfns00001000101" />
+    <layout name="npnxnanbnsnfns00001000101" font="Lato" controllayout="npnxnanbnsnfns00001000101" colorscheme="pxabnsnfns00001000101" string_table="pxabnsnfns00001000101" />
+    <layout name="pxabnsnfns00001000100" font="Lato" controllayout="pxabnsnfns00001000100" colorscheme="pxabnsnfns00001000101" string_table="pxabnsnfns00001000101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="VAMOS TAPEAR TITIA!" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="false" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Lato" />
+            </options>
+          </option>
+          <option name="settings" value="true" />
+          <option name="fullScreenToggle" value="false" />
+          <option name="playbackSpeedControl" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00001000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00001000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00001000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001000100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns00001000101">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="focus_rect_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x002060" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x222222" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected_hover_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="notes">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="60" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="outer_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x545454" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="94" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="30" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4FBDF4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="brandhighlight_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="85" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="control_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="35" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C7C7C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA2A2A2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4FBDF4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="10" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_label">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="settings_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="40" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="volume_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns00001000101">
+      <string id="acc_active">active</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="acc_definition">definition</string>
+      <string id="acc_enter_fullscreen">Enter full-screen mode</string>
+      <string id="acc_exit_fullscreen">Exit full-screen mode</string>
+      <string id="acc_finish">finish</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_transcript">Open</string>
+      <string id="acc_modern_video_volume">video volume</string>
+      <string id="acc_next">next</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="acc_playback_speed">playback speed</string>
+      <string id="acc_previous">previous</string>
+      <string id="acc_replay">replay</string>
+      <string id="acc_resources">resources</string>
+      <string id="acc_search_input">search</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
+      <string id="acc_video_transcript_list">Transcipt</string>
+      <string id="acc_visited">visited</string>
+      <string id="acc_volume">volume</string>
+      <string id="acc_window_close">Close</string>
+      <string id="acc_window_move">Move window</string>
+      <string id="acc_window_options">Options</string>
+      <string id="acc_window_resize">Resize window</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="action">Action</string>
+      <string id="alt_key">Alt</string>
+      <string id="background_audio">Background audio</string>
+      <string id="background_audio_shortcut">Toggle background audio</string>
+      <string id="bio">Bio</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="closed_captions">Captions</string>
+      <string id="closed_captions_tip">Toggle captions</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="definition">Definition</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="fullscreen_shortcut">Toggle full-screen mode</string>
+      <string id="glossary">Glossary</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="more_info">More info</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="mute_tip">Mute</string>
+      <string id="next">NEXT</string>
+      <string id="next_shortcut">Next slide</string>
+      <string id="next_slide_tip">Next slide</string>
+      <string id="outline">Menu</string>
+      <string id="pause_tip">Pause</string>
+      <string id="play_tip">Play</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="playback_speed_title">Playback Speed</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="prev">PREV</string>
+      <string id="previous_shortcut">Previous slide</string>
+      <string id="previous_slide_tip">Previous slide</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
+      <string id="question_list">Question List</string>
+      <string id="replay_shortcut">Replay slide</string>
+      <string id="replay_tip">Replay</string>
+      <string id="resources">Resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="search_toggle">Search</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
+      <string id="streaming_video_local_playback_learn_more">Learn More</string>
+      <string id="streaming_video_local_playback_republish">To watch this video, use the preview feature in Storyline 360, upload your published output to a server, publish to Review 360, or switch to static video quality.</string>
+      <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
+      <string id="submit">SUBMIT</string>
+      <string id="submit_shortcut">Submit slide</string>
+      <string id="submit_tip">Submit</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="terms">Terms</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="three_image_interaction_step">step</string>
+      <string id="three_image_item">item</string>
+      <string id="three_image_items">items</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">marker</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="three_image_visited">visited</string>
+      <string id="togglezoom">Toggle zoom to fit</string>
+      <string id="transcript">Notes</string>
+      <string id="transcript_auto_scroll">Autoscroll</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript_show_timestamp">Show timestamps</string>
+      <string id="unmute_tip">Unmute</string>
+      <string id="video_transcript_resume_autoscroll">Resume autoscroll</string>
+      <string id="video_transcript_select_track">Select track</string>
+      <string id="video_transcript_title">Transcripts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Lato">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.5g5ZOVbfhDU" displaytext="INICIO" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5g5ZOVbfhDU.5cJKkZRUEWX" displaytext="Menu" expand="false" type="slide" />
+            <slidelink slideid="_player.5g5ZOVbfhDU.6WwpjuA6z9O" displaytext="Tela 2" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6m19G66gYpx" displaytext="Tutorial" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6m19G66gYpx.5igWWYDSz4d" displaytext="Tela 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.6KenF3wFGZi" displaytext="Tela 4" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.5WIpFXwfMxv" displaytext="Tela 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.5zj78WTHggW" displaytext="Tela 6" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.6Ent2oSMAgI" displaytext="Tela 7" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.6OU7JfO7hI4" displaytext="Tela 8" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.5kEVWOSZBL6" displaytext="Tela 9" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.5cTnBHuKdsR" displaytext="Tela 10" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.5XsryzRTN9Q" displaytext="Tela 11" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.6kobvlbWh0O" displaytext="Tela 12" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.6F634LldNdT" displaytext="Tela 20" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.603rpyHxLaE" displaytext="Tela 21" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.6H0AP71QPQB" displaytext="Tela 22" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.6l7kWj6QGWB" displaytext="Tela 23" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.5fnpCel9Ci3" displaytext="Tela 16" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.5lXjFhux0Sh" displaytext="Tela 17" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.5risoOedePi" displaytext="Tela 18" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.5yjxGpAHM5J" displaytext="Tela 19" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.6VQW738dVv7" displaytext="Tela 24" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.6fmd9ZxYgq4" displaytext="Tela 25" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.5avDnANxM26" displaytext="Tela 26" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.6IJCOfUajwJ" displaytext="Tela 27" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.69v0GkyuW0s" displaytext="Tela 28" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.6pYQGpdAPm6" displaytext="Tela 29" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.64wSI1Ybq04" displaytext="Tela 30" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.5e44FgBGXlt" displaytext="Tela 31" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.6Jrurws7qsg" displaytext="Tela 13" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.5Vezp94Dmxv" displaytext="Tela 35" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.5jORaITWAFw" displaytext="Tela 36" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.61ERR7yfhOg" displaytext="Tela 37" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.5WE7sU0JJIS" displaytext="Tela 14" expand="false" type="slide" />
+            <slidelink slideid="_player.6m19G66gYpx.6mJQUX1Aeql" displaytext="Tela 15" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6DVXQHjN6OS" displaytext="Tutorial - Envelopes" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6DVXQHjN6OS.6nA0C3VUovv" displaytext="Tela 32" expand="false" type="slide" />
+            <slidelink slideid="_player.6DVXQHjN6OS.65VQKXYZ5Ha" displaytext="Tela 33" expand="false" type="slide" />
+            <slidelink slideid="_player.6DVXQHjN6OS.6kYInmxibQg" displaytext="Tela 34" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5mKDYPrwbxx" displaytext="Mapa Mansão" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5mKDYPrwbxx.6FomZLsKAGQ" displaytext="Tela 38" expand="false" type="slide" />
+            <slidelink slideid="_player.5mKDYPrwbxx.6r7oR5yJBlB" displaytext="Tela 39" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6K1lWo3NmXT" displaytext="Pós vitória Jacqueline" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6K1lWo3NmXT.5rZbLJU5Jrh" displaytext="Tela 40" expand="false" type="slide" />
+            <slidelink slideid="_player.6K1lWo3NmXT.6e2ZBHviJ7g" displaytext="Tela 41" expand="false" type="slide" />
+            <slidelink slideid="_player.6K1lWo3NmXT.5zx9nrufGJX" displaytext="Tela 42" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.65kjPo6PyKD" displaytext="Pós vitória MORNA Maurício" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.65kjPo6PyKD.6RAQiyb0RGn" displaytext="Tela 43" expand="false" type="slide" />
+            <slidelink slideid="_player.65kjPo6PyKD.5zrfLPHgc3r" displaytext="Tela 44" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5yGAQrqhQGw" displaytext="Pós vitória REAL Maúrício" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5yGAQrqhQGw.6QEQup4iwxa" displaytext="Tela 45" expand="false" type="slide" />
+            <slidelink slideid="_player.5yGAQrqhQGw.6Q9EQOWyFbC" displaytext="Tela 46" expand="false" type="slide" />
+            <slidelink slideid="_player.5yGAQrqhQGw.5fF5ywnLg3j" displaytext="Tela 47" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5bUzyhFwrlE" displaytext="Pós Assassinato Álvaro" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5bUzyhFwrlE.6al3SdyBX1x" displaytext="Tela 48" expand="false" type="slide" />
+            <slidelink slideid="_player.5bUzyhFwrlE.5pVyhge7vuD" displaytext="Tela 49" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6JP3wyHUCHE" displaytext="Pós vitória Álvaro" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6JP3wyHUCHE.6OZlUv24BOj" displaytext="Tela 50" expand="false" type="slide" />
+            <slidelink slideid="_player.6JP3wyHUCHE.5olYYQVfyzV" displaytext="Tela 51" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5obSQfFaiuX" displaytext="Tia Jacqueline" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5obSQfFaiuX.5X2WZdOgBML" displaytext="Tela 52" expand="false" type="slide" />
+            <slidelink slideid="_player.5obSQfFaiuX.6aVQWXfs2KF" displaytext="Tela 53" expand="false" type="slide" />
+            <slidelink slideid="_player.5obSQfFaiuX.6lwakZ8AU0B" displaytext="Tela 56" expand="false" type="slide" />
+            <slidelink slideid="_player.5obSQfFaiuX.6MQnRTbaqGs" displaytext="Tela 57" expand="false" type="slide" />
+            <slidelink slideid="_player.5obSQfFaiuX.5r1tdYowjbM" displaytext="Tela 58" expand="false" type="slide" />
+            <slidelink slideid="_player.5obSQfFaiuX.6qt35MCMpaZ" displaytext="Tela 59" expand="false" type="slide" />
+            <slidelink slideid="_player.5obSQfFaiuX.62ybForgUhp" displaytext="Tela 60" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5eWX1F3k54B" displaytext="Caminho Ousada" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5eWX1F3k54B.63JtnQdNBAO" displaytext="Tela 61" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6kFmqRfiDtx" displaytext="Caminho Irritada" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6kFmqRfiDtx.65OkYnQtWT4" displaytext="Tela 62" expand="false" type="slide" />
+            <slidelink slideid="_player.6kFmqRfiDtx.6Z5DGa0tLu9" displaytext="Tela 63" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6XuOfUcifdf" displaytext="Caminho Ingênua" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6XuOfUcifdf.62j3dACxL1g" displaytext="Tela 73" expand="false" type="slide" />
+            <slidelink slideid="_player.6XuOfUcifdf.6TSRemi3UJf" displaytext="Tela 74" expand="false" type="slide" />
+            <slidelink slideid="_player.6XuOfUcifdf.6bl08BbcI1N" displaytext="Tela 75" expand="false" type="slide" />
+            <slidelink slideid="_player.6XuOfUcifdf.5ilLuaXJZRp" displaytext="Tela 76" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5mGUzb71nwy" displaytext="Caminho Desconfiada e Derrota" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5mGUzb71nwy.6Bx1gS5PEYV" displaytext="Tela 64" expand="false" type="slide" />
+            <slidelink slideid="_player.5mGUzb71nwy.6Sn9li1rAhy" displaytext="Tela 65" expand="false" type="slide" />
+            <slidelink slideid="_player.5mGUzb71nwy.682wChRCBij" displaytext="Tela 66" expand="false" type="slide" />
+            <slidelink slideid="_player.5mGUzb71nwy.6c6wHV9bwu4" displaytext="Tela 67" expand="false" type="slide" />
+            <slidelink slideid="_player.5mGUzb71nwy.6dVv61TzEj0" displaytext="Tela 68" expand="false" type="slide" />
+            <slidelink slideid="_player.5mGUzb71nwy.6rK5omI5kzj" displaytext="Tela 69" expand="false" type="slide" />
+            <slidelink slideid="_player.5mGUzb71nwy.5YDUjUAs7Mu" displaytext="Tela 70" expand="false" type="slide" />
+            <slidelink slideid="_player.5mGUzb71nwy.6Pnfq315Yxm" displaytext="Tela 71" expand="false" type="slide" />
+            <slidelink slideid="_player.5mGUzb71nwy.6dDQcyX1MS6" displaytext="Tela 72" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5fQ8FAoThaD" displaytext="Caminho Contrariada" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5fQ8FAoThaD.5XHd6WOjZ3l" displaytext="Tela 77" expand="false" type="slide" />
+            <slidelink slideid="_player.5fQ8FAoThaD.6frMK5II5ud" displaytext="Tela 78" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6hCIGuRJRx7" displaytext="Caminho Leal" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6hCIGuRJRx7.6E7IAMQCKUs" displaytext="Tela 79" expand="false" type="slide" />
+            <slidelink slideid="_player.6hCIGuRJRx7.5rVUARcy3Hd" displaytext="Tela 80" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.63ENJZWtxNU" displaytext="Caminho Entediada" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.63ENJZWtxNU.6NNBDRhDD7j" displaytext="Tela 81" expand="false" type="slide" />
+            <slidelink slideid="_player.63ENJZWtxNU.6a57cDPfgOh" displaytext="Tela 82" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6GVgvB56XfW" displaytext="Caminho Interessada" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6GVgvB56XfW.6L0tDjcRZv7" displaytext="Tela 83" expand="false" type="slide" />
+            <slidelink slideid="_player.6GVgvB56XfW.6cNebpDLdct" displaytext="Tela 84" expand="false" type="slide" />
+            <slidelink slideid="_player.6GVgvB56XfW.6rUqBYqL8xF" displaytext="Tela 85" expand="false" type="slide" />
+            <slidelink slideid="_player.6GVgvB56XfW.5evuG7QHwjZ" displaytext="Tela 86" expand="false" type="slide" />
+            <slidelink slideid="_player.6GVgvB56XfW.6nIBdtMoaVN" displaytext="Tela 87" expand="false" type="slide" />
+            <slidelink slideid="_player.6GVgvB56XfW.6I0aDTuEjUV" displaytext="Tela 88" expand="false" type="slide" />
+            <slidelink slideid="_player.6GVgvB56XfW.5ceGZB0YuPj" displaytext="Tela 89" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5ikyDnINb5T" displaytext="Caminho Fofocas" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5ikyDnINb5T.6Lts6w51dL3" displaytext="Tela 90" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5XfD7fGKIMl" displaytext="Caminho Fofoca Falsa" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5XfD7fGKIMl.6XT717b7QsM" displaytext="Tela 91" expand="false" type="slide" />
+            <slidelink slideid="_player.5XfD7fGKIMl.5yM8d2wUJun" displaytext="Tela 92" expand="false" type="slide" />
+            <slidelink slideid="_player.5XfD7fGKIMl.5zl3C18ZXdF" displaytext="Tela 93" expand="false" type="slide" />
+            <slidelink slideid="_player.5XfD7fGKIMl.6lvEZrV4QFq" displaytext="Tela 94" expand="false" type="slide" />
+            <slidelink slideid="_player.5XfD7fGKIMl.61LV9RCPY1M" displaytext="Tela 95" expand="false" type="slide" />
+            <slidelink slideid="_player.5XfD7fGKIMl.6NMk6CcAQce" displaytext="Tela 96" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5cHyB8MTyaV" displaytext="Caminho F. Verdadeira e Secreta" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5cHyB8MTyaV.66USRkgnYwq" displaytext="Tela 97" expand="false" type="slide" />
+            <slidelink slideid="_player.5cHyB8MTyaV.6DZwaFTtLmM" displaytext="Tela 98" expand="false" type="slide" />
+            <slidelink slideid="_player.5cHyB8MTyaV.6L4DcmPNA8G" displaytext="Tela 99" expand="false" type="slide" />
+            <slidelink slideid="_player.5cHyB8MTyaV.65wF6muFlN3" displaytext="Tela 100" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5s5KZ05Us2H" displaytext="Primo Maurício" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5s5KZ05Us2H.5bDRTEmiCZw" displaytext="Tela 101" expand="false" type="slide" />
+            <slidelink slideid="_player.5s5KZ05Us2H.6jLRloBTOfI" displaytext="Tela 104" expand="false" type="slide" />
+            <slidelink slideid="_player.5s5KZ05Us2H.5qWwnb4Mhgs" displaytext="Tela 105" expand="false" type="slide" />
+            <slidelink slideid="_player.5s5KZ05Us2H.5merIihug87" displaytext="Tela 106" expand="false" type="slide" />
+            <slidelink slideid="_player.5s5KZ05Us2H.6GrIm310tdQ" displaytext="Tela 107" expand="false" type="slide" />
+            <slidelink slideid="_player.5s5KZ05Us2H.5tfvcos2kTT" displaytext="Tela 108" expand="false" type="slide" />
+            <slidelink slideid="_player.5s5KZ05Us2H.6RWGY6MA94a" displaytext="Tela 109" expand="false" type="slide" />
+            <slidelink slideid="_player.5s5KZ05Us2H.6S8ap0r0pLX" displaytext="Tela 110" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5z6UUOZTfyP" displaytext="Caminho Leal" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5z6UUOZTfyP.5va5hnEJ989" displaytext="Tela 111" expand="false" type="slide" />
+            <slidelink slideid="_player.5z6UUOZTfyP.6VOchGTCYMO" displaytext="Tela 112" expand="false" type="slide" />
+            <slidelink slideid="_player.5bzZd2LHgSC.5l12YQnqe5H" displaytext="Tela 191" expand="false" type="slide" />
+            <slidelink slideid="_player.5bzZd2LHgSC.6n38UaHMevY" displaytext="Tela 192" expand="false" type="slide" />
+            <slidelink slideid="_player.5bzZd2LHgSC.6NeVUnl8wvz" displaytext="Tela 193" expand="false" type="slide" />
+            <slidelink slideid="_player.5bzZd2LHgSC.5qVUBtThsnk" displaytext="Tela 194" expand="false" type="slide" />
+            <slidelink slideid="_player.5bzZd2LHgSC.6DoNMDv27BT" displaytext="Tela 195" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6UYts7tkxT3" displaytext="Caminho Cabreiro" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6UYts7tkxT3.6S9flYXu3fN" displaytext="Tela 113" expand="false" type="slide" />
+            <slidelink slideid="_player.6UYts7tkxT3.5xRBrdmtQnm" displaytext="Tela 114" expand="false" type="slide" />
+            <slidelink slideid="_player.6UYts7tkxT3.6m1gYFmZt35" displaytext="Tela 115" expand="false" type="slide" />
+            <slidelink slideid="_player.6UYts7tkxT3.5quSvGIZB26" displaytext="Tela 116" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5chATdeDRNE" displaytext="Caminho Traiçoeiro" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5chATdeDRNE.60iEF7XM48C" displaytext="Tela 117" expand="false" type="slide" />
+            <slidelink slideid="_player.5chATdeDRNE.6Bg472qG5Ss" displaytext="Tela 118" expand="false" type="slide" />
+            <slidelink slideid="_player.5chATdeDRNE.6MMNLdBoI58" displaytext="Tela 119" expand="false" type="slide" />
+            <slidelink slideid="_player.5chATdeDRNE.5sS8LtvR2zN" displaytext="Tela 120" expand="false" type="slide" />
+            <slidelink slideid="_player.5chATdeDRNE.5hE8IK2ebAk" displaytext="Tela 121" expand="false" type="slide" />
+            <slidelink slideid="_player.5chATdeDRNE.5htLTUnohtg" displaytext="Tela 122" expand="false" type="slide" />
+            <slidelink slideid="_player.5chATdeDRNE.6R8K3vsAxut" displaytext="Tela 123" expand="false" type="slide" />
+            <slidelink slideid="_player.5chATdeDRNE.6ey9PlMfGWe" displaytext="Tela 124" expand="false" type="slide" />
+            <slidelink slideid="_player.5chATdeDRNE.6N4GG1IGOBB" displaytext="Tela 125" expand="false" type="slide" />
+            <slidelink slideid="_player.5chATdeDRNE.6mFTMOquDa0" displaytext="Tela 126" expand="false" type="slide" />
+            <slidelink slideid="_player.5chATdeDRNE.637pVqjTh1v" displaytext="Tela 127" expand="false" type="slide" />
+            <slidelink slideid="_player.5chATdeDRNE.5cycnU8HrB0" displaytext="Tela 128" expand="false" type="slide" />
+            <slidelink slideid="_player.5chATdeDRNE.6UjjEp1KDt2" displaytext="Tela 129" expand="false" type="slide" />
+            <slidelink slideid="_player.5chATdeDRNE.5cOE5ZIMAS5" displaytext="Tela 130" expand="false" type="slide" />
+            <slidelink slideid="_player.5chATdeDRNE.5m50U8vp9JG" displaytext="Tela 131" expand="false" type="slide" />
+            <slidelink slideid="_player.5chATdeDRNE.6L8P8oLQDq6" displaytext="Tela 132" expand="false" type="slide" />
+            <slidelink slideid="_player.5chATdeDRNE.6Gf4kdIqAKo" displaytext="Tela 133" expand="false" type="slide" />
+            <slidelink slideid="_player.5chATdeDRNE.6Gv688VNJVE" displaytext="Tela 134" expand="false" type="slide" />
+            <slidelink slideid="_player.5chATdeDRNE.639IKKeB9XN" displaytext="Tela 135" expand="false" type="slide" />
+            <slidelink slideid="_player.5chATdeDRNE.6oGeuEBlFXI" displaytext="Tela 136" expand="false" type="slide" />
+            <slidelink slideid="_player.5chATdeDRNE.6pZw4JjfYFE" displaytext="Tela 137" expand="false" type="slide" />
+            <slidelink slideid="_player.5chATdeDRNE.5i8JqtqrQwY" displaytext="Tela 138" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5ieiQoJWaQU" displaytext="Caminho Incrominação e Derrota" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5ieiQoJWaQU.5dVG0WRGBjb" displaytext="Tela 139" expand="false" type="slide" />
+            <slidelink slideid="_player.5ieiQoJWaQU.5avdCso5COS" displaytext="Tela 140" expand="false" type="slide" />
+            <slidelink slideid="_player.5ieiQoJWaQU.5yhZQ11lclF" displaytext="Tela 141" expand="false" type="slide" />
+            <slidelink slideid="_player.5ieiQoJWaQU.6rChvB41p6t" displaytext="Tela 142" expand="false" type="slide" />
+            <slidelink slideid="_player.5ieiQoJWaQU.60ieEh427pf" displaytext="Tela 143" expand="false" type="slide" />
+            <slidelink slideid="_player.5ieiQoJWaQU.5hqxrpYA1hT" displaytext="Tela 144" expand="false" type="slide" />
+            <slidelink slideid="_player.5ieiQoJWaQU.6Hm3OGVvCE3" displaytext="Tela 145" expand="false" type="slide" />
+            <slidelink slideid="_player.5ieiQoJWaQU.6Ovj6PHiCd8" displaytext="Tela 146" expand="false" type="slide" />
+            <slidelink slideid="_player.5ieiQoJWaQU.5oTzB8dGBQ2" displaytext="Tela 147" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5yCtKaW5pAc" displaytext="Caminho Ousada" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5yCtKaW5pAc.5inzVpPedU8" displaytext="Tela 148" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6ePKpLoey5p" displaytext="Caminho Ingênua" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6ePKpLoey5p.6o2bBZ3GXvo" displaytext="Tela 149" expand="false" type="slide" />
+            <slidelink slideid="_player.6ePKpLoey5p.6pZCcwTNTKB" displaytext="Tela 150" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6NEZQwhgd1h" displaytext="Caminho Tentador" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6NEZQwhgd1h.60pkXDPAA5X" displaytext="Tela 151" expand="false" type="slide" />
+            <slidelink slideid="_player.6NEZQwhgd1h.5X8lQivooTu" displaytext="Tela 152" expand="false" type="slide" />
+            <slidelink slideid="_player.6NEZQwhgd1h.6MbnCAKuJjQ" displaytext="Tela 153" expand="false" type="slide" />
+            <slidelink slideid="_player.6NEZQwhgd1h.5l9xgGJojzv" displaytext="Tela 154" expand="false" type="slide" />
+            <slidelink slideid="_player.6NEZQwhgd1h.5mInqN5F4wN" displaytext="Tela 155" expand="false" type="slide" />
+            <slidelink slideid="_player.6NEZQwhgd1h.6GExjnNtsLA" displaytext="Tela 156" expand="false" type="slide" />
+            <slidelink slideid="_player.6NEZQwhgd1h.5b21YONzPrQ" displaytext="Tela 157" expand="false" type="slide" />
+            <slidelink slideid="_player.6NEZQwhgd1h.6X1iTzJizAO" displaytext="Tela 158" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6TVFthQVbyg" displaytext="Caminho Bafafá" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6TVFthQVbyg.5nBbdf1KmS0" displaytext="Tela 159" expand="false" type="slide" />
+            <slidelink slideid="_player.6TVFthQVbyg.6ZppjYJSqth" displaytext="Tela 160" expand="false" type="slide" />
+            <slidelink slideid="_player.6TVFthQVbyg.6KWfcWKajkJ" displaytext="Tela 161" expand="false" type="slide" />
+            <slidelink slideid="_player.6TVFthQVbyg.6JwGMWAO34j" displaytext="Tela 162" expand="false" type="slide" />
+            <slidelink slideid="_player.6TVFthQVbyg.5bWmaPtqaCN" displaytext="Tela 163" expand="false" type="slide" />
+            <slidelink slideid="_player.6TVFthQVbyg.5dyJE6YByxl" displaytext="Tela 164" expand="false" type="slide" />
+            <slidelink slideid="_player.6TVFthQVbyg.6ST2sDIIgCt" displaytext="Tela 165" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6T2WmzBWtQM" displaytext="FOFOCAS" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6T2WmzBWtQM.6hdR6BkAiaz" displaytext="Tela 166" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.68gTSzZc6sj" displaytext="Caminho Blefando" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.68gTSzZc6sj.613Z5QAAEet" displaytext="Tela 167" expand="false" type="slide" />
+            <slidelink slideid="_player.68gTSzZc6sj.6K2e6a5AZ8R" displaytext="Tela 168" expand="false" type="slide" />
+            <slidelink slideid="_player.68gTSzZc6sj.6MArMdxau9c" displaytext="Tela 169" expand="false" type="slide" />
+            <slidelink slideid="_player.68gTSzZc6sj.61MItDbjeAS" displaytext="Tela 170" expand="false" type="slide" />
+            <slidelink slideid="_player.68gTSzZc6sj.6fi4arXDwF1" displaytext="Tela 171" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5XNGY4XyGmT" displaytext="Caminho F. Verdareira e Bombástica" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5XNGY4XyGmT.6nstjtggKKw" displaytext="Tela 172" expand="false" type="slide" />
+            <slidelink slideid="_player.5XNGY4XyGmT.6JcOlDa85rD" displaytext="Tela 173" expand="false" type="slide" />
+            <slidelink slideid="_player.5XNGY4XyGmT.6HyZiuzvcJ8" displaytext="Tela 174" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6QDJoDx2JVZ" displaytext="Caminho Fofoca Falsa" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6QDJoDx2JVZ.69qrIMRkvhs" displaytext="Tela 175" expand="false" type="slide" />
+            <slidelink slideid="_player.6QDJoDx2JVZ.5sMkZ41But3" displaytext="Tela 176" expand="false" type="slide" />
+            <slidelink slideid="_player.6QDJoDx2JVZ.6OF1vSqkiCn" displaytext="Tela 177" expand="false" type="slide" />
+            <slidelink slideid="_player.6QDJoDx2JVZ.6nZY4fEPJ1E" displaytext="Tela 178" expand="false" type="slide" />
+            <slidelink slideid="_player.6QDJoDx2JVZ.6Ovy2eEQkXj" displaytext="Tela 179" expand="false" type="slide" />
+            <slidelink slideid="_player.6QDJoDx2JVZ.6d6DN4vxGTH" displaytext="Tela 180" expand="false" type="slide" />
+            <slidelink slideid="_player.6QDJoDx2JVZ.6CXG6uV0hrm" displaytext="Tela 181" expand="false" type="slide" />
+            <slidelink slideid="_player.6QDJoDx2JVZ.5qZZ6D10Q2d" displaytext="Tela 182" expand="false" type="slide" />
+            <slidelink slideid="_player.6QDJoDx2JVZ.6kIMXYBRacg" displaytext="Tela 183" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6cfd3415M9m" displaytext="Primo Álvaro" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6cfd3415M9m.6OZvJrZ2o7Y" displaytext="Tela 184" expand="false" type="slide" />
+            <slidelink slideid="_player.6cfd3415M9m.5hWTAKolQaF" displaytext="Tela 190" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="" displaytext="Caminho Ingênua de Primo Álvaro" expand="true" type="slide" />
+        <slidelink slideid="_player.5nAZ00jMw1O" displaytext="Caminho Malicioso" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5nAZ00jMw1O.6Wa2adDgOcs" displaytext="Tela 196" expand="false" type="slide" />
+            <slidelink slideid="_player.5nAZ00jMw1O.5aYmKqRLK86" displaytext="Tela 197" expand="false" type="slide" />
+            <slidelink slideid="_player.5nAZ00jMw1O.6UpxJ1j8DP5" displaytext="Tela 198" expand="false" type="slide" />
+            <slidelink slideid="_player.5nAZ00jMw1O.6ZCVIYff3Pq" displaytext="Tela 199" expand="false" type="slide" />
+            <slidelink slideid="_player.5nAZ00jMw1O.6KXpMlnsyLf" displaytext="Tela 200" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.63Vs38egpXV" displaytext="Caminho Incriminador e Derrota" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.63Vs38egpXV.6114Kvjsein" displaytext="Tela 201" expand="false" type="slide" />
+            <slidelink slideid="_player.63Vs38egpXV.67YQRm4kqaK" displaytext="Tela 202" expand="false" type="slide" />
+            <slidelink slideid="_player.63Vs38egpXV.5lXhcjZRuqt" displaytext="Tela 203" expand="false" type="slide" />
+            <slidelink slideid="_player.63Vs38egpXV.5fvRxb1kWcT" displaytext="Tela 204" expand="false" type="slide" />
+            <slidelink slideid="_player.63Vs38egpXV.6VZ5SMck3IU" displaytext="Tela 205" expand="false" type="slide" />
+            <slidelink slideid="_player.63Vs38egpXV.63rHClEbsWR" displaytext="Tela 206" expand="false" type="slide" />
+            <slidelink slideid="_player.63Vs38egpXV.6RNnz96fQ2d" displaytext="Tela 207" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.69Ec2AS39cu" displaytext="Caminho Assassinar Álvaro" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.69Ec2AS39cu.6FHfCO7twUC" displaytext="Tela 208" expand="false" type="slide" />
+            <slidelink slideid="_player.69Ec2AS39cu.5YsKeQGMyOY" displaytext="Tela 209" expand="false" type="slide" />
+            <slidelink slideid="_player.69Ec2AS39cu.6JZJWa6IzRj" displaytext="Tela 210" expand="false" type="slide" />
+            <slidelink slideid="_player.69Ec2AS39cu.6OTxwpwnD6l" displaytext="Tela 211" expand="false" type="slide" />
+            <slidelink slideid="_player.69Ec2AS39cu.5onfgK5LGL1" displaytext="Tela 212" expand="false" type="slide" />
+            <slidelink slideid="_player.69Ec2AS39cu.6aw6QR50dtU" displaytext="Tela 213" expand="false" type="slide" />
+            <slidelink slideid="_player.69Ec2AS39cu.6C92L6qsBev" displaytext="Tela 214" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6LE9Rl9AMnG" displaytext="Caminho Ameaçar álvaro" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6LE9Rl9AMnG.6rjktJssiDo" displaytext="Tela 215" expand="false" type="slide" />
+            <slidelink slideid="_player.6LE9Rl9AMnG.6NQkmE5rOMy" displaytext="Tela 216" expand="false" type="slide" />
+            <slidelink slideid="_player.6LE9Rl9AMnG.6cky4b6DtjR" displaytext="Tela 217" expand="false" type="slide" />
+            <slidelink slideid="_player.6LE9Rl9AMnG.67s7RRhdToI" displaytext="Tela 218" expand="false" type="slide" />
+            <slidelink slideid="_player.6LE9Rl9AMnG.5hVcw3DHBpv" displaytext="Tela 219" expand="false" type="slide" />
+            <slidelink slideid="_player.6LE9Rl9AMnG.5x0UtB2WYsP" displaytext="Tela 220" expand="false" type="slide" />
+            <slidelink slideid="_player.6LE9Rl9AMnG.6NxW3fqXbM5" displaytext="Tela 221" expand="false" type="slide" />
+            <slidelink slideid="_player.6LE9Rl9AMnG.6ZokNzlfPnk" displaytext="Tela 222" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6cVFT00V6Eq" displaytext="Caminho Entediado" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6cVFT00V6Eq.5drKa93DFtG" displaytext="Tela 223" expand="false" type="slide" />
+            <slidelink slideid="_player.6cVFT00V6Eq.5yhblqndprI" displaytext="Tela 224" expand="false" type="slide" />
+            <slidelink slideid="_player.6cVFT00V6Eq.6oxd42Sux7m" displaytext="Tela 225" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6dr2MyK2A9s" displaytext="Caminho Leal" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6dr2MyK2A9s.65LE5UlldbQ" displaytext="Tela 226" expand="false" type="slide" />
+            <slidelink slideid="_player.6dr2MyK2A9s.6ChJkX7ohq8" displaytext="Tela 227" expand="false" type="slide" />
+            <slidelink slideid="_player.6dr2MyK2A9s.6pzlUFuqSZ3" displaytext="Tela 228" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.69izfr0V2MX" displaytext="Caminho Peita e Contesta" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.69izfr0V2MX.6kJ4EUct7Gx" displaytext="Tela 229" expand="false" type="slide" />
+            <slidelink slideid="_player.69izfr0V2MX.6EZpVLRN4aC" displaytext="Tela 230" expand="false" type="slide" />
+            <slidelink slideid="_player.69izfr0V2MX.6fY1mAt4ROd" displaytext="Tela 231" expand="false" type="slide" />
+            <slidelink slideid="_player.69izfr0V2MX.5upw7YuFJgu" displaytext="Tela 232" expand="false" type="slide" />
+            <slidelink slideid="_player.69izfr0V2MX.5YKPdy1qG9n" displaytext="Tela 233" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6ZyI3oer6OG" displaytext="Caminho Ousada" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6ZyI3oer6OG.6E9jrDpVz4Z" displaytext="Tela 234" expand="false" type="slide" />
+            <slidelink slideid="_player.6ZyI3oer6OG.5jhrapJRGPg" displaytext="Tela 235" expand="false" type="slide" />
+            <slidelink slideid="_player.6ZyI3oer6OG.5VTQMCJ5vPY" displaytext="Tela 236" expand="false" type="slide" />
+            <slidelink slideid="_player.6ZyI3oer6OG.5zeG8QS3X6t" displaytext="Tela 237" expand="false" type="slide" />
+            <slidelink slideid="_player.6ZyI3oer6OG.6nXf6OtJL6M" displaytext="Tela 238" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5md4V45o588" displaytext="Caminho Desconcertado" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5md4V45o588.6CPJFAbBINu" displaytext="Tela 239" expand="false" type="slide" />
+            <slidelink slideid="_player.5md4V45o588.5xM0QqTNnJ7" displaytext="Tela 240" expand="false" type="slide" />
+            <slidelink slideid="_player.5md4V45o588.5nXfEC8rS5I" displaytext="Tela 241" expand="false" type="slide" />
+            <slidelink slideid="_player.5md4V45o588.6AZpnHUTdtw" displaytext="Tela 242" expand="false" type="slide" />
+            <slidelink slideid="_player.5md4V45o588.6ONA9UwTAvf" displaytext="Tela 243" expand="false" type="slide" />
+            <slidelink slideid="_player.5md4V45o588.5uYPiVaaj1V" displaytext="Tela 244" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5n1Fa40vYNA" displaytext="Fofocas" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5n1Fa40vYNA.6b7o199zcBj" displaytext="Tela 245" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5VWseH5ugoE" displaytext="Caminho Fofoca Falsa" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5VWseH5ugoE.5xCdqASMnZc" displaytext="Tela 246" expand="false" type="slide" />
+            <slidelink slideid="_player.5VWseH5ugoE.5cslhEjAB1h" displaytext="Tela 247" expand="false" type="slide" />
+            <slidelink slideid="_player.5VWseH5ugoE.5wABcc68766" displaytext="Tela 248" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6gRK8XpksAn" displaytext="Fofocas Verdadeira e Bombástica" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6gRK8XpksAn.5u8uX5CRp7F" displaytext="Tela 249" expand="false" type="slide" />
+            <slidelink slideid="_player.6gRK8XpksAn.6A8j5ibNCew" displaytext="Tela 250" expand="false" type="slide" />
+            <slidelink slideid="_player.6gRK8XpksAn.6M74WdYgMbR" displaytext="Tela 251" expand="false" type="slide" />
+            <slidelink slideid="_player.6gRK8XpksAn.6QbAAylb7zc" displaytext="Tela 252" expand="false" type="slide" />
+            <slidelink slideid="_player.6gRK8XpksAn.5mOoZ2V5mB8" displaytext="Tela 253" expand="false" type="slide" />
+            <slidelink slideid="_player.6gRK8XpksAn.6jCZgFqDgPy" displaytext="Tela 254" expand="false" type="slide" />
+            <slidelink slideid="_player.6gRK8XpksAn.5aZ4DWeAvKv" displaytext="Tela 255" expand="false" type="slide" />
+            <slidelink slideid="_player.6gRK8XpksAn.65UgIcZ9GJN" displaytext="Tela 256" expand="false" type="slide" />
+            <slidelink slideid="_player.6gRK8XpksAn.668uEqKeVBk" displaytext="Tela 257" expand="false" type="slide" />
+            <slidelink slideid="_player.6gRK8XpksAn.5ca1i8SaVvX" displaytext="Tela 258" expand="false" type="slide" />
+            <slidelink slideid="_player.6gRK8XpksAn.661dGZOWjKX" displaytext="Tela 259" expand="false" type="slide" />
+            <slidelink slideid="_player.6gRK8XpksAn.63zq4AH8Uuu" displaytext="Tela 260" expand="false" type="slide" />
+            <slidelink slideid="_player.6gRK8XpksAn.6NAcELPHGBI" displaytext="Tela 261" expand="false" type="slide" />
+            <slidelink slideid="_player.6gRK8XpksAn.5hYASsMzNR5" displaytext="Tela 262" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6gSdBKLk4Vs" displaytext="Encontro com Titia" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6gSdBKLk4Vs.6ROvy9EgCcm" displaytext="Tela 263" expand="false" type="slide" />
+            <slidelink slideid="_player.6gSdBKLk4Vs.5sofDRz5Bky" displaytext="Tela 264" expand="false" type="slide" />
+            <slidelink slideid="_player.6gSdBKLk4Vs.6ZePjZq68bO" displaytext="Tela 265" expand="false" type="slide" />
+            <slidelink slideid="_player.6gSdBKLk4Vs.644qreLatVp" displaytext="Tela 266" expand="false" type="slide" />
+            <slidelink slideid="_player.6gSdBKLk4Vs.6NfGIKC3vtx" displaytext="Tela 267" expand="false" type="slide" />
+            <slidelink slideid="_player.6gSdBKLk4Vs.6iHHSHojcbk" displaytext="Tela 268" expand="false" type="slide" />
+            <slidelink slideid="_player.6gSdBKLk4Vs.5okwd8GB2k4" displaytext="Tela 269" expand="false" type="slide" />
+            <slidelink slideid="_player.6gSdBKLk4Vs.64hC6gx7Csj" displaytext="Tela 270" expand="false" type="slide" />
+            <slidelink slideid="_player.6gSdBKLk4Vs.5UmaOxPk9EO" displaytext="Tela 271" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.69bGMsWbvM1" displaytext="Caminho Sonsa" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.69bGMsWbvM1.5nbxsdIaGJ5" displaytext="Tela 272" expand="false" type="slide" />
+            <slidelink slideid="_player.69bGMsWbvM1.5uIuH1onKwG" displaytext="Tela 273" expand="false" type="slide" />
+            <slidelink slideid="_player.69bGMsWbvM1.6Eufgu4EdOo" displaytext="Tela 274" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6Qw6Sh8eqg3" displaytext="Caminho Submissa" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6Qw6Sh8eqg3.6pykV8sp1Jt" displaytext="Tela 275" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qw6Sh8eqg3.6Nm1Kthm12d" displaytext="Tela 276" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qw6Sh8eqg3.5VDcIWnnEjO" displaytext="Tela 277" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qw6Sh8eqg3.5sUTdU83Gho" displaytext="Tela 278" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qw6Sh8eqg3.6W6t4nEUm4H" displaytext="Tela 279" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5leoa6kcvvD" displaytext="Caminho Promete Mudar" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5leoa6kcvvD.5bYUVzH1s3I" displaytext="Tela 280" expand="false" type="slide" />
+            <slidelink slideid="_player.5leoa6kcvvD.6l3iHxTkg9A" displaytext="Tela 281" expand="false" type="slide" />
+            <slidelink slideid="_player.5leoa6kcvvD.62gQnv8lrbZ" displaytext="Tela 282" expand="false" type="slide" />
+            <slidelink slideid="_player.5leoa6kcvvD.6UueTd6feBD" displaytext="Tela 283" expand="false" type="slide" />
+            <slidelink slideid="_player.5leoa6kcvvD.5k16UiBjDVf" displaytext="Tela 284" expand="false" type="slide" />
+            <slidelink slideid="_player.5leoa6kcvvD.5iGc0Plouxw" displaytext="Tela 285" expand="false" type="slide" />
+            <slidelink slideid="_player.5leoa6kcvvD.5fJjVoEqr8t" displaytext="Tela 286" expand="false" type="slide" />
+            <slidelink slideid="_player.5leoa6kcvvD.5Xbzr12mQs0" displaytext="Tela 287" expand="false" type="slide" />
+            <slidelink slideid="_player.5leoa6kcvvD.6ZizyXB6g52" displaytext="Tela 288" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.69MUMl4wWIn" displaytext="Caminho Ousada" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.69MUMl4wWIn.6PzdrTnkUa0" displaytext="Tela 289" expand="false" type="slide" />
+            <slidelink slideid="_player.69MUMl4wWIn.6Yr5FvHLZRH" displaytext="Tela 290" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5z9pI6wA1We" displaytext="Caminho Arrogante" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5z9pI6wA1We.6SJky4XueE5" displaytext="Tela 291" expand="false" type="slide" />
+            <slidelink slideid="_player.5z9pI6wA1We.5wsoCTTkDMM" displaytext="Tela 292" expand="false" type="slide" />
+            <slidelink slideid="_player.5z9pI6wA1We.66wcJyCoU8x" displaytext="Tela 293" expand="false" type="slide" />
+            <slidelink slideid="_player.5z9pI6wA1We.5kmxtXBoTw5" displaytext="Tela 294" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6OaLuaa5rgp" displaytext="Final Ruim" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6OaLuaa5rgp.5ko3GwK8zpn" displaytext="Tela 295" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5pJYWpUu3vP" displaytext="Caminho Honesta" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5pJYWpUu3vP.6gukm6FuldL" displaytext="Tela 296" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.6MAc7KaIuc6" displaytext="Tela 297" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.6RcKusgkSxh" displaytext="Tela 298" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.5x2yOydNGwT" displaytext="Tela 299" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.6ABlvJbyJBn" displaytext="Tela 300" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.6UYl9tSd9qI" displaytext="Tela 301" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.5yHNJNcxzWO" displaytext="Tela 302" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.5uKvyngSlzo" displaytext="Tela 303" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.5cnCLnXUvqY" displaytext="Tela 304" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.5sACBfF3Axs" displaytext="Tela 305" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.6Q2S1VpFjDi" displaytext="Tela 306" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.6D3B77TremP" displaytext="Tela 307" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.6Y7yE1H0O4p" displaytext="Tela 308" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.5m6Zcaf1tCi" displaytext="Tela 309" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.5uFkOMOyfOP" displaytext="Tela 310" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.6p4UQ0rokVo" displaytext="Tela 311" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.5pxXHVKiq7O" displaytext="Tela 312" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.6LgejXyHgK3" displaytext="Tela 313" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.6iJLtQnZ19H" displaytext="Tela 314" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.63NeRcyL0Yv" displaytext="Tela 315" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.5xYI6emNf2G" displaytext="Tela 316" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.6ginVaQBwvR" displaytext="Tela 317" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.6Hzd2pkxVy0" displaytext="Tela 318" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.5xhBVieZxKQ" displaytext="Tela 319" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.6h8G9R0Ftci" displaytext="Tela 320" expand="false" type="slide" />
+            <slidelink slideid="_player.5pJYWpUu3vP.5tC77wcMzZh" displaytext="Tela 321" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.66wpISKGPXB" displaytext="Caminho Nunca faria isso" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.66wpISKGPXB.5u8hLVmkPK8" displaytext="Tela 322" expand="false" type="slide" />
+            <slidelink slideid="_player.66wpISKGPXB.6I35g5GPZ25" displaytext="Tela 323" expand="false" type="slide" />
+            <slidelink slideid="_player.66wpISKGPXB.6Ke3EE9WArP" displaytext="Tela 324" expand="false" type="slide" />
+            <slidelink slideid="_player.66wpISKGPXB.6KI7vX9D2ci" displaytext="Tela 325" expand="false" type="slide" />
+            <slidelink slideid="_player.66wpISKGPXB.5eHmgydvPLG" displaytext="Tela 326" expand="false" type="slide" />
+            <slidelink slideid="_player.66wpISKGPXB.69vhY7zSnFr" displaytext="Tela 327" expand="false" type="slide" />
+            <slidelink slideid="_player.66wpISKGPXB.61zgTTjFTKc" displaytext="Tela 328" expand="false" type="slide" />
+            <slidelink slideid="_player.66wpISKGPXB.6ZAgvraao1D" displaytext="Tela 329" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6LCz5iRTReB" displaytext="Caminho Sim mas Não Roubei" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6LCz5iRTReB.5a0kX7633bT" displaytext="Tela 330" expand="false" type="slide" />
+            <slidelink slideid="_player.6LCz5iRTReB.5UhglY64mJr" displaytext="Tela 331" expand="false" type="slide" />
+            <slidelink slideid="_player.6LCz5iRTReB.6ZQybVfH7LA" displaytext="Tela 332" expand="false" type="slide" />
+            <slidelink slideid="_player.6LCz5iRTReB.5f2ZzpYzJHT" displaytext="Tela 333" expand="false" type="slide" />
+            <slidelink slideid="_player.6LCz5iRTReB.6evHI9s6rhv" displaytext="Tela 334" expand="false" type="slide" />
+            <slidelink slideid="_player.6LCz5iRTReB.6NERpDf42z2" displaytext="Tela 335" expand="false" type="slide" />
+            <slidelink slideid="_player.6LCz5iRTReB.5iUV53MMwr8" displaytext="Tela 336" expand="false" type="slide" />
+            <slidelink slideid="_player.6LCz5iRTReB.6G4nKrMmCfW" displaytext="Tela 337" expand="false" type="slide" />
+            <slidelink slideid="_player.6LCz5iRTReB.6IEVNaNPV1L" displaytext="Tela 338" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6iA2xoaINjV" displaytext="Caminho Fofoca Verdadeira e Falsa" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6iA2xoaINjV.5j5eKIi1bcW" displaytext="Tela 339" expand="false" type="slide" />
+            <slidelink slideid="_player.6iA2xoaINjV.6PpC34L95Gx" displaytext="Tela 340" expand="false" type="slide" />
+            <slidelink slideid="_player.6iA2xoaINjV.6ClDVP3OPKY" displaytext="Tela 341" expand="false" type="slide" />
+            <slidelink slideid="_player.6iA2xoaINjV.61vj23FVrMs" displaytext="Tela 342" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6risKabVV9y" displaytext="Caminho Fofoca Bombástica" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6risKabVV9y.5sk89V9BcV3" displaytext="Tela 343" expand="false" type="slide" />
+            <slidelink slideid="_player.6risKabVV9y.60Z5CL0iux3" displaytext="Tela 344" expand="false" type="slide" />
+            <slidelink slideid="_player.6risKabVV9y.6bWua9WhA0a" displaytext="Tela 345" expand="false" type="slide" />
+            <slidelink slideid="_player.6risKabVV9y.6kJxJr5ft7U" displaytext="Tela 346" expand="false" type="slide" />
+            <slidelink slideid="_player.6risKabVV9y.5wDGvMCB0i5" displaytext="Tela 347" expand="false" type="slide" />
+            <slidelink slideid="_player.6risKabVV9y.6J7ppOEbO0U" displaytext="Tela 348" expand="false" type="slide" />
+            <slidelink slideid="_player.6risKabVV9y.5xkxRMFntwr" displaytext="Tela 349" expand="false" type="slide" />
+            <slidelink slideid="_player.6risKabVV9y.5dQsKgrUKEZ" displaytext="Tela 350" expand="false" type="slide" />
+            <slidelink slideid="_player.6risKabVV9y.5bQ0v2OBKCR" displaytext="Tela 351" expand="false" type="slide" />
+            <slidelink slideid="_player.6risKabVV9y.6ccQy731hwV" displaytext="Tela 352" expand="false" type="slide" />
+            <slidelink slideid="_player.6risKabVV9y.5kgSQCgPRiI" displaytext="Tela 353" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6BqfRH3O8ae" displaytext="Final Agridoce" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6BqfRH3O8ae.5b0hoPrkIEi" displaytext="Tela 354" expand="false" type="slide" />
+            <slidelink slideid="_player.6BqfRH3O8ae.6dAi2di2A5N" displaytext="Tela 355" expand="false" type="slide" />
+            <slidelink slideid="_player.6BqfRH3O8ae.6ZhyeEqb0Mi" displaytext="Tela 356" expand="false" type="slide" />
+            <slidelink slideid="_player.6BqfRH3O8ae.5x1lHolON1d" displaytext="Tela 357" expand="false" type="slide" />
+            <slidelink slideid="_player.6BqfRH3O8ae.5X1yOx0OlHq" displaytext="Tela 358" expand="false" type="slide" />
+            <slidelink slideid="_player.6BqfRH3O8ae.6VEelrzKF9Z" displaytext="Tela 359" expand="false" type="slide" />
+            <slidelink slideid="_player.6BqfRH3O8ae.5nu4qwyL7Fr" displaytext="Tela 360" expand="false" type="slide" />
+            <slidelink slideid="_player.6BqfRH3O8ae.6mWn8pwOdPv" displaytext="Tela 361" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.61w5HI7hjYk" displaytext="Final Feliz" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.61w5HI7hjYk.6ajffSWooE5" displaytext="Tela 362" expand="false" type="slide" />
+            <slidelink slideid="_player.61w5HI7hjYk.6RYaf6wKqDj" displaytext="Tela 363" expand="false" type="slide" />
+            <slidelink slideid="_player.61w5HI7hjYk.6mJSvvA9hj8" displaytext="Tela 364" expand="false" type="slide" />
+            <slidelink slideid="_player.61w5HI7hjYk.6Xm9eQsJbh1" displaytext="Tela 365" expand="false" type="slide" />
+            <slidelink slideid="_player.61w5HI7hjYk.5sAfFaUeC7B" displaytext="Tela 366" expand="false" type="slide" />
+            <slidelink slideid="_player.61w5HI7hjYk.5liGeGi5xXx" displaytext="Tela 367" expand="false" type="slide" />
+            <slidelink slideid="_player.61w5HI7hjYk.5f5RBKIaqiN" displaytext="Tela 368" expand="false" type="slide" />
+            <slidelink slideid="_player.61w5HI7hjYk.6oHIcaBzrrj" displaytext="Tela 369" expand="false" type="slide" />
+            <slidelink slideid="_player.61w5HI7hjYk.5b67cL2Rt7u" displaytext="Tela 370" expand="false" type="slide" />
+            <slidelink slideid="_player.61w5HI7hjYk.5W30JslLmI3" displaytext="Tela 371" expand="false" type="slide" />
+            <slidelink slideid="_player.61w5HI7hjYk.6Lt9ibuKsBB" displaytext="Tela 372" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
